@@ -81,7 +81,7 @@ def note_detect(audio_file):
 if __name__ == "__main__":
 
 	path = os.getcwd()
-	file_name = path + "/d2.wav"
+	file_name = path + "/FondnessPiaFastStart.wav"  # 분석할 파일 설정
 	audio_file = wave.open(file_name)
 	Detected_Note = note_detect(audio_file)
 	print("\n\tDetected Note = " + str(Detected_Note))
